@@ -1,0 +1,146 @@
+//Файл обнуляющих стилей.
+@import "default";
+
+@font-face {
+  font-family: "NAMU";
+  src: url("/fonts/NAMU-1850.woff") format("woff");
+  src: url("/fonts/NAMU-1850.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+
+body {
+  background-color: #FBF0D1;
+  font-family: NAMU, sans-serif;
+}
+
+.header {
+  // .header__row
+  &__row {
+    display: flex;
+  }
+
+  // .header__column
+  &__column {
+    flex: 0 1 33.333%;
+  }
+
+  // .header__logo
+  &__logo {
+    width: 132px;
+    height: 132px;
+    padding: 19px 0 0 0;
+  }
+
+  // .header__cloud
+  &__cloud {
+    display: flex;
+    justify-content: end;
+    padding: 12px 0 0 0;
+  }
+
+  &__second {
+    position: relative;
+
+    &:before {
+      content: '';
+      background: url('/img/ball.png') 0 0 no-repeat;
+      position: absolute;
+      z-index: 1;
+      width: 268px;
+      height: 268px;
+      left: -89px;
+      top: 33px;
+    }
+  }
+
+  // .header__social
+  &__social {
+
+  }
+
+  // .header__toggle
+  &__toggle {
+    width: 58px;
+    height: 58px;
+    background-color: #EEB519;
+    border-radius: 50%;
+    margin: 0 0 0 12px;
+
+  }
+
+  // .header__toggle-line
+  &__toggle-line {
+
+  }
+
+  &__third {
+    align-items: start;
+    padding: 40px 0 0 50px;
+  }
+
+}
+
+
+.social {
+  display: flex;
+
+  // .social__link
+  &__link {
+    padding: 0 12px 0 0;
+
+    &:nth-child(2) {
+      padding: 0 16px 0 0;
+    }
+  }
+
+  // .social__btn
+  &__btn {
+    display: inline-block;
+    height: 58px;
+    width: 305px;
+    background-color: #EEB519;
+    border-radius: 50px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 0 0 0;
+
+    span {
+      padding: 10px 0 0 0;
+      font-weight: 400;
+      font-size: 32px;
+      line-height: 38px;
+      color: #14110F;
+    }
+  }
+}
+
+.toggle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  // .toggle__block
+  &__block {
+    margin: 12px 0 0 0;
+  }
+
+  // .toggle__line
+  &__line {
+    display: block;
+    width: 33px;
+    height: 2px;
+    background-color: #FBF0D1;
+    border-radius: 2px;
+    margin: 0 0 10px 0;
+  }
+}
+
+.container {
+  max-width: 1825px;
+  margin: 0 auto;
+  padding: 0 17px;
+}
+
