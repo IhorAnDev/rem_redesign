@@ -47,7 +47,7 @@ body {
       content: '';
       background: url('/img/ball.png') 0 0 no-repeat;
       position: absolute;
-      z-index: 1;
+      z-index: 5;
       width: 268px;
       height: 268px;
       left: -89px;
@@ -80,8 +80,25 @@ body {
     padding: 40px 0 0 50px;
   }
 
+  @media (max-width: 1760px) {
+    &__cloud {
+      display: flex;
+      justify-content: center;
+    }
+  }
+
 }
 
+.btn {
+  height: 79px;
+  width: 369px;
+  display: inline-block;
+  background-color: #EEB519;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50px;
+
+}
 
 .social {
   display: flex;
@@ -97,14 +114,9 @@ body {
 
   // .social__btn
   &__btn {
-    display: inline-block;
+    padding: 10px 0 0 0;
     height: 58px;
     width: 305px;
-    background-color: #EEB519;
-    border-radius: 50px;
-    text-align: center;
-    text-decoration: none;
-    padding: 10px 0 0 0;
 
     span {
       padding: 10px 0 0 0;
@@ -115,6 +127,7 @@ body {
     }
   }
 }
+
 
 .toggle {
   display: flex;
@@ -135,6 +148,186 @@ body {
     background-color: #FBF0D1;
     border-radius: 2px;
     margin: 0 0 10px 0;
+  }
+}
+
+.general {
+  // .general__intro
+  &__intro {
+    display: flex;
+    padding: 5px 0 0 0;
+  }
+}
+
+.intro {
+
+  // .intro__text-block
+  &__text-block {
+    position: relative;
+    margin: 0 25px 0 0;
+
+    &:after {
+      content: '';
+      background: url('/img/knight_intro.png') 0 0 no-repeat;
+      position: absolute;
+      z-index: 1;
+      width: 268px;
+      height: 268px;
+      bottom: -117px;
+      right: 125px;
+    }
+  }
+
+  &__column {
+    flex: 1 1 auto;
+
+    &__first {
+      padding: 36px 0 0 0;
+    }
+  }
+
+  // .intro__title
+  &__title {
+    font-style: normal;
+    font-size: 77px;
+    line-height: 92px;
+    color: #14110F;
+    max-width: 700px;
+    padding: 8px 0 49px 0;
+    letter-spacing: 1px;
+  }
+
+  // .intro__subtitle
+  &__subtitle {
+    font-size: 36px;
+    line-height: 43px;
+    color: #14110F;
+    max-width: 790px;
+    padding: 0 0 70px 0;
+  }
+
+  // .intro__donation-button
+  &__donation-button {
+  }
+
+  // .intro__image-block
+  &__image-block {
+    position: relative;
+  }
+
+  // .intro__image
+  &__image {
+
+    // .intro__image_center
+    &_center {
+      width: 100px;
+      height: 100px;
+      outline: 1px dashed red;
+      color: #14110F;
+    }
+  }
+
+  // .intro__bubble
+  &__bubble {
+
+  }
+
+  @media (max-width: 1760px) {
+    &__title {
+      font-style: normal;
+      font-size: 55px;
+      color: #14110F;
+      padding: 8px 0 49px 0;
+      letter-spacing: 1px;
+      line-height: 55px;
+      width: 100%;
+    }
+    &__subtitle {
+      font-size: 26px;
+      line-height: 23px;
+      color: #14110F;
+      padding: 0 0 70px 0;
+    }
+
+    &__text-block {
+
+      &:after {
+        content: '';
+        background: url('/img/knight_intro.png') 0 0 no-repeat;
+        position: absolute;
+        z-index: 1;
+        width: 211px;
+        height: 263px;
+        bottom: -108px;
+        right: 72px;
+      }
+    }
+  }
+}
+
+.orange-button {
+  display: inline-block;
+  padding: 14px 0 0 5px;
+  font-size: 32px;
+  line-height: 38px;
+  // .orange-button__text
+  &__text {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    color: #14110F;
+  }
+
+}
+
+.second {
+  flex: 1 1 58%;
+  margin: 0 0 0 20px;
+  position: relative;
+  // .second__bubble
+  &__bubble {
+    font-size: 35px;
+    line-height: 42px;
+    display: block;
+    width: 400px;
+    height: 269px;
+    background: #EEB519;
+    border-radius: 44px;
+    text-align: center;
+    position: absolute;
+    left: -90px;
+    top: -25px;
+    font-weight: 400;
+    padding: 40px 0 8px 0;
+    z-index: 1;
+  }
+
+  // .second__image
+  &__image {
+    width: 100%;
+    height: 100%;
+    background: url('/img/intro_big.png') 0 0/contain no-repeat;
+    margin: 39px 0 0 9px;
+  }
+
+  @media (max-width: 1760px) {
+    &__image {
+      background: url('/img/intro_big.png') 0 0/90% 100% no-repeat;
+    }
+    &__bubble {
+      font-size: 22px;
+      line-height: 25px;
+      width: 250px;
+      height: 169px;
+      border-radius: 44px;
+      text-align: center;
+      position: absolute;
+      left: -90px;
+      top: -25px;
+      font-weight: 400;
+      padding: 40px 0 8px 0;
+      z-index: 1;
+    }
   }
 }
 
