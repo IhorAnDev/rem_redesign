@@ -87,7 +87,66 @@ body {
     }
   }
 
+  @media (max-width: 1220px) {
+    padding: 0;
+    &__second {
+      display: none;
+
+      &:before {
+        display: none;
+      }
+    }
+
+    &__column {
+      flex: 0 1 50%;
+    }
+  }
+
+  @media (max-width: 760px) {
+    &__logo {
+      a {
+        img {
+          width: 74px;
+          height: 74px;
+        }
+      }
+
+    }
+    &__third {
+      padding: 30px 0 0 0;
+    }
+    &__toggle {
+      width: 50px;
+      height: 50px;
+    }
+    &__third {
+      display: flex;
+      justify-content: end;
+      position: relative;
+
+      &:before {
+        content: '';
+        background: url('/img/cloud.png') 0 0/80px 80px no-repeat;
+        position: absolute;
+        z-index: 5;
+        width: 268px;
+        height: 268px;
+        left: -89px;
+        top: 33px;
+      }
+    }
+  }
+  @media (max-width: 320px) {
+
+    &__third {
+      &:before {
+        display: none;
+      }
+    }
+
+  }
 }
+
 
 .btn {
   height: 79px;
@@ -126,6 +185,35 @@ body {
       color: #14110F;
     }
   }
+
+  @media (max-width: 760px) {
+    &__link {
+      padding: 0 10px 0 0;
+
+      &:nth-child(2) {
+        padding: 0 5px 0 0;
+      }
+
+      img {
+        width: 50px;
+        height: 50px;
+      }
+    }
+    &__btn {
+      display: none;
+    }
+  }
+
+  @media (max-width: 320px) {
+    &__link {
+      padding: 0 5px 0 0;
+
+      &:nth-child(2) {
+        padding: 0;
+      }
+    }
+
+  }
 }
 
 
@@ -158,6 +246,10 @@ body {
     padding: 5px 0 0 0;
   }
 }
+
+//header end
+
+//second start
 
 .intro {
 
@@ -207,8 +299,6 @@ body {
   }
 
   // .intro__donation-button
-  &__donation-button {
-  }
 
   // .intro__image-block
   &__image-block {
@@ -234,30 +324,159 @@ body {
 
   @media (max-width: 1760px) {
     &__title {
-      font-style: normal;
-      font-size: 47px;
-      letter-spacing: 1px;
-      line-height: 50px;
-      width: 100%;
-      padding: 0 0 50px 0;
+      font-size: 55px;
+      line-height: 56px;
+      padding: 0 0 55px 0;
     }
     &__subtitle {
-      font-size: 28px;
-      line-height: 32px;
+      font-size: 33px;
+      line-height: 40px;
       padding: 0 0 80px 0;
+    }
+
+    &__column {
+      &__first {
+        padding: 55px 0 0 0;
+      }
+    }
+
+    &__text-block {
+
+      &:after {
+        width: 211px;
+        height: 263px;
+        bottom: -108px;
+        right: 72px;
+      }
+    }
+  }
+
+  @media (max-width: 1530px) {
+    &__title {
+      font-size: 45px;
+      line-height: 46px;
+      padding: 0 0 45px 0;
+    }
+    &__subtitle {
+      font-size: 23px;
+      line-height: 35px;
+      padding: 0 0 60px 0;
+    }
+
+    &__column {
+      &__first {
+        padding: 45px 0 0 0;
+      }
+    }
+
+    &__text-block {
+
+      &:after {
+        background: url('/img/knight_intro.png') 0 0/200px 200px no-repeat;
+        width: 211px;
+        height: 263px;
+        bottom: -108px;
+        right: 72px;
+      }
+    }
+
+  }
+  @media (max-width: 1220px) {
+    &__title {
+      font-size: 33px;
+      line-height: 46px;
+      padding: 0 0 40px 0;
+    }
+    &__subtitle {
+      font-size: 20px;
+      line-height: 25px;
+      padding: 0 0 45px 0;
+    }
+
+    &__column {
+      &__first {
+        padding: 30px 0 0 0;
+        flex: 1 1 40%;
+      }
+
+    }
+
+    &__text-block {
+
+      &:after {
+        background: url('/img/knight_intro.png') 0 0/60% auto no-repeat;
+        width: 211px;
+        height: 263px;
+        bottom: -148px;
+        right: -133px;
+      }
+    }
+
+  }
+
+  @media (max-width: 760px) {
+    flex-direction: column;
+    &__title {
+      font-size: 25px;
+      line-height: 35px;
+      padding: 0 0 15px 0;
+    }
+    &__subtitle {
+      z-index: 0;
+      font-size: 18px;
+      line-height: 25px;
+      padding: 0 0 25px 0;
+    }
+
+    &__column {
+      &__first {
+        padding: 0 0 30px 0;
+      }
     }
 
     &__text-block {
 
       &:after {
         content: '';
-        background: url('/img/knight_intro.png') 0 0 no-repeat;
+        background: url('/img/knight_intro.png') 0 0/45% auto no-repeat;
         position: absolute;
-        z-index: 1;
-        width: 211px;
+        z-index: 2;
+        width: 195px;
         height: 263px;
-        bottom: -108px;
-        right: 72px;
+        bottom: -86px;
+        right: -139px;
+      }
+    }
+
+  }
+  @media (max-width: 380px) {
+    &__text-block {
+      max-width: 280px;
+
+      &:after {
+        background: url('/img/knight_intro.png') 0 0/100% auto no-repeat;
+        width: 153px;
+        height: 153px;
+        bottom: 159px;
+        right: -85px;
+      }
+    }
+
+    &__title {
+      font-size: 30px;
+      line-height: 36px;
+      padding: 0 0 20px 0;
+    }
+    &__subtitle {
+      font-size: 18px;
+      line-height: 22px;
+      padding: 0 0 15px 0;
+    }
+
+    &__column {
+      &__first {
+        padding: 0;
+        margin: 0 25px 0 0;
       }
     }
   }
@@ -276,6 +495,36 @@ body {
     color: #14110F;
   }
 
+  @media (max-width: 1530px) {
+    height: 50px;
+    width: 255px;
+    padding: 0 0 0 5px;
+    &__text {
+      font-size: 30px;
+      color: #14110F;
+    }
+  }
+  @media (max-width: 760px) {
+    height: 63px;
+    width: 293px;
+    padding: 10px 0 0 5px;
+    display: block;
+    margin: 0 auto;
+    &__text {
+      font-size: 28px;
+      line-height: 34px;
+      color: #14110F;
+    }
+  }
+  @media (max-width: 380px) {
+    display: block;
+    margin: 0 0 37px 15px;
+    &__text {
+      font-size: 28px;
+      line-height: 34px;
+      color: #14110F;
+    }
+  }
 }
 
 .second {
@@ -309,21 +558,50 @@ body {
   }
 
   @media (max-width: 1760px) {
-    &__image {
-    }
     &__bubble {
       font-size: 22px;
       line-height: 25px;
       width: 250px;
       height: 169px;
-      border-radius: 44px;
-      text-align: center;
-      position: absolute;
       left: -90px;
       top: -25px;
-      font-weight: 400;
       padding: 40px 0 8px 0;
-      z-index: 1;
+    }
+  }
+
+  @media (max-width: 1220px) {
+    flex: 1 1 60%;
+    &__bubble {
+      font-size: 15px;
+      line-height: 15px;
+      width: 150px;
+      height: 130px;
+      left: -60px;
+      top: -25px;
+      padding: 25px 0 8px 0;
+    }
+  }
+
+  @media (max-width: 760px) {
+    margin: 10px 0 0 0;
+    &__bubble {
+      width: 155px;
+      height: 104px;
+      left: 160px;
+      top: -28px;
+      padding: 12px 0 0px 0;
+      border-radius: 19px;
+    }
+  }
+
+
+  @media (max-width: 380px) {
+    margin: 0;
+    &__bubble {
+      font-size: 14px;
+      line-height: 17px;
+      left: 160px;
+      top: -28px;
     }
   }
 }
