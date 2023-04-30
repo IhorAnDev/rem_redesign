@@ -593,6 +593,11 @@ body {
       padding: 12px 0 0px 0;
       border-radius: 19px;
     }
+    &__image {
+      img {
+        padding: 40px 0 0 0px;
+      }
+    }
   }
 
 
@@ -603,6 +608,11 @@ body {
       line-height: 17px;
       left: 160px;
       top: -28px;
+    }
+    &__image {
+      img {
+        padding: 40px 0 0 0px;
+      }
     }
   }
 }
@@ -704,8 +714,6 @@ body {
 
       &:before {
         background: url("/img/Rocket.png") right 0/ 80% 80% no-repeat;
-        width: 200px;
-        height: 200px;
       }
     }
 
@@ -717,6 +725,50 @@ body {
 
     }
   }
+
+  @media (max-width: 810px) {
+    margin: 30px 0 0 0;
+    &__row {
+      flex-direction: column;
+    }
+    &__title {
+      padding: 20px 0 20px 0;
+
+      p {
+        font-size: 50px;
+      }
+
+      &:before {
+        background: url("/img/Rocket.png") right 0/ 70% 70% no-repeat;
+        top: -170px;
+        right: 45px;
+      }
+    }
+    &__text {
+      font-size: 25px;
+      padding: 0 0 0 0;
+
+    }
+  }
+  @media (max-width: 375px) {
+    &__title {
+      padding: 10px 0 10px 0;
+
+      p {
+        font-size: 35px;
+      }
+
+      &:before {
+        background: url("/img/Rocket.png") right 0/ 50% 50% no-repeat;
+        top: -100px;
+        right: 0;
+      }
+    }
+    &__text {
+      font-size: 22px;
+      line-height: 26px;
+    }
+  }
 }
 
 .title {
@@ -724,11 +776,146 @@ body {
   color: #14110F;
 }
 
-.text {
+//second end
+//third start
+
+.third {
+  padding: 101px 0 0 0;
+  // .third__row
+  &__row {
+    display: flex;
+  }
+
+  // .third__column
+  &__column {
+    flex: 0 1 50%;
+
+    &_first {
+      padding: 100px 30px 0 0;
+
+    }
+
+    // .third__column_second
+    &_second {
+      flex: 0 1 53%;
+    }
+  }
+
+  // .third__text
+  &__text {
+    position: relative;
+
+    p {
+      padding: 82px 0 0 0;
+      font-size: 36px;
+      line-height: 43px;
+      color: #14110F;
+    }
+
+    &:after {
+      content: "";
+      background: url("/img/duck.png") 0 0 /100% 100% no-repeat;
+      position: absolute;
+      width: 280px;
+      height: 205px;
+      left: 30%;
+    }
+  }
+
+  // .third__image
+  &__image {
+    img {
+      border-radius: 12%;
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 1600px) {
+    &__column {
+
+      &_first {
+        padding: 20px 30px 0 0;
+      }
+    }
+  }
+  @media (max-width: 1400px) {
+    &__column {
+
+      &_first {
+        padding: 10px 30px 0 0;
+      }
+    }
+    &__text {
+      p {
+        padding: 62px 0 0 0;
+        font-size: 30px;
+        line-height: 43px;
+      }
+
+      &:after {
+        content: '';
+        background: url("/img/duck.png") 0 0 /50% 100% no-repeat;
+        height: 124px;
+      }
+    }
+
+  }
+
+  @media (max-width: 1220px) {
+    &__column {
+      &_first {
+        padding: 0 30px 0 0;
+      }
+    }
+    &__text {
+      p {
+        padding: 33px 0 0 0;
+        font-size: 26px;
+        line-height: 40px;
+      }
+
+      &:after {
+        content: '';
+        background: url("/img/duck.png") 0 0 /50% 100% no-repeat;
+        height: 124px;
+      }
+    }
+
+  }
+  @media (max-width: 810px) {
+    padding: 10px 0 0 0;
+    &__row {
+      flex-direction: column;
+    }
+    &__column {
+      &_first {
+        order: 2;
+        padding: 0;
+      }
+
+      &_second {
+        order: 1;
+      }
+    }
+  }
+  @media (max-width: 400px) {
+    &__text {
+      p {
+        font-size: 18px;
+        line-height: 22px;
+      }
+
+      &:after {
+        content: '';
+        display: none;
+      }
+    }
+
+  }
 }
 
+//third  end
 
-//second end
 
 .container {
   max-width: 1825px;
