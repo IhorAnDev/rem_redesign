@@ -915,6 +915,70 @@ body {
 }
 
 //third  end
+//fourth start
+.fourth {
+  position: relative;
+  margin: 103px 0 0 0;
+  // .fourth__row
+  &__row {
+    display: flex;
+  }
+
+  // .fourth__column
+  &__column {
+    flex: 0 1 50%;
+    // .fourth__column_first
+    &_first {
+      background: #3D5987;
+      border-radius: 115px;
+      color: #FFFFFF;
+    }
+
+    // .fourth__column_second
+    &_second {
+      padding: 0 0 0 49px;
+    }
+  }
+
+  // .fourth__title
+  &__title {
+    text-align: center;
+    font-size: 77px;
+    padding: 41px 0 41px 0;
+  }
+
+  // .fourth__text
+  &__text {
+    padding: 0 17px 20px 27px;
+
+    p {
+      text-align: left;
+      font-size: 36px;
+      line-height: 43px;
+      padding: 0 0 81px 0;
+    }
+  }
+
+  // .fourth__img
+  &__img {
+    img {
+      width: 70%;
+      border-radius: 50%;
+    }
+
+    &:after {
+      content: '';
+      background: url("/img/castle_1.png") 0 0 no-repeat;
+
+    }
+  }
+
+  // .fourth__textl
+  &__textl {
+  }
+}
+
+//fourth end
 
 
 .container {
