@@ -737,9 +737,14 @@ body {
   border-radius: 12%;
   width: 100%;
 }
-@media (max-width: 1600px) {
+@media (max-width: 1640px) {
   .third__column_first {
     padding: 20px 30px 0 0;
+  }
+  .third__text:after {
+    content: "";
+    background: url("/img/duck.png") 0 0/70% 70% no-repeat;
+    height: 250px;
   }
 }
 @media (max-width: 1400px) {
@@ -828,16 +833,34 @@ body {
   text-align: left;
   font-size: 36px;
   line-height: 43px;
-  padding: 0 0 81px 0;
+  padding: 0 0 45px 0;
+}
+.fourth__img {
+  position: relative;
 }
 .fourth__img img {
   width: 70%;
   border-radius: 50%;
+  border: 5px solid #3D5987;
 }
 .fourth__img:after {
   content: "";
   background: url("/img/castle_1.png") 0 0 no-repeat;
+  position: absolute;
+  z-index: 1;
+  width: 382px;
+  height: 379px;
+  bottom: -65px;
+  right: 14px;
 }
+.fourth__textl {
+  padding: 117px 0 0 0;
+  font-size: 36px;
+  line-height: 43px;
+  color: #14110F;
+  text-align: left;
+}
+
 .container {
   max-width: 1825px;
   margin: 0 auto;
