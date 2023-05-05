@@ -791,6 +791,9 @@ body {
   .third__column_second {
     order: 1;
   }
+  .third__text:after {
+    left: 37%;
+  }
 }
 @media (max-width: 400px) {
   .third__text p {
@@ -859,6 +862,131 @@ body {
   line-height: 43px;
   color: #14110F;
   text-align: left;
+}
+@media (max-width: 1640px) {
+  .fourth__title {
+    font-size: 65px;
+    padding: 20px 0 20px 0;
+  }
+  .fourth__text {
+    padding: 0 17px 16px 27px;
+  }
+  .fourth__text p {
+    font-size: 30px;
+    line-height: 41px;
+    padding: 0 0 30px 0;
+  }
+  .fourth__img:after {
+    background: url("/img/castle_1.png") 0 0/80% 80% no-repeat;
+    width: 382px;
+    height: 379px;
+    bottom: -160px;
+    right: -50px;
+  }
+  .fourth__textl {
+    padding: 170px 0 0 0;
+    font-size: 33px;
+    line-height: 40px;
+  }
+}
+@media (max-width: 1366px) {
+  .fourth__title {
+    font-size: 55px;
+    padding: 15px 0 15px 0;
+  }
+  .fourth__text {
+    padding: 0 17px 35px 27px;
+  }
+  .fourth__text p {
+    font-size: 25px;
+    line-height: 39px;
+    padding: 0 0 20px 0;
+  }
+  .fourth__img:after {
+    background: url("/img/castle_1.png") 0 0/80% 80% no-repeat;
+    bottom: -160px;
+    right: -50px;
+  }
+  .fourth__textl {
+    padding: 120px 0 0 0;
+    font-size: 28px;
+    line-height: 35px;
+  }
+}
+@media (max-width: 1200px) {
+  .fourth__column_first {
+    border-radius: 50px;
+  }
+  .fourth__img:after {
+    background: url("/img/castle_1.png") 0 0/70% 70% no-repeat;
+    bottom: -261px;
+    right: -103px;
+  }
+  .fourth__textl {
+    padding: 200px 0 0 0;
+    font-size: 28px;
+    line-height: 35px;
+  }
+}
+@media (max-width: 810px) {
+  .fourth {
+    margin: 135px 0 0 0;
+  }
+  .fourth__row {
+    flex-direction: column;
+  }
+  .fourth__column_second {
+    padding: 0;
+  }
+  .fourth__title {
+    font-size: 45px;
+  }
+  .fourth__img {
+    padding: 30px 0 0 0;
+  }
+  .fourth__img img {
+    width: 100%;
+  }
+  .fourth__img:after {
+    background: url("/img/castle_1.png") 0 0/80% 80% no-repeat;
+    bottom: -267px;
+    right: 105px;
+  }
+}
+@media (max-width: 400px) {
+  .fourth {
+    margin: 39px 0 0 0;
+  }
+  .fourth__column_second {
+    flex: 0 0 50%;
+  }
+  .fourth__title {
+    font-size: 28px;
+  }
+  .fourth__text {
+    padding: 0 10px 10px 14px;
+  }
+  .fourth__text p {
+    padding: 0 0 15px 0;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .fourth__img {
+    padding: 20px 0 0 0;
+  }
+  .fourth__img:after {
+    background: url("/img/castle_1.png") 0 0/55% 55% no-repeat;
+    bottom: -353px;
+    right: -107px;
+  }
+  .fourth__textl {
+    padding: 206px 0 0 0;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .fourth__textl p {
+    padding: 0 0px 0px 20px;
+  }
 }
 
 .container {
