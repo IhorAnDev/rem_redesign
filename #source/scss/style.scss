@@ -1152,6 +1152,57 @@ body {
 
 
 //fourth end
+//team start
+.team {
+  display: none;
+  // .team__title
+  &__title {
+  }
+
+  // .team__text
+  &__text {
+  }
+
+  // .team__row
+  &__row {
+  }
+
+  // .team__image
+  &__image {
+  }
+}
+
+//team end
+
+//figures start
+.figures {
+  // .figures__title
+  &__title {
+  }
+
+  // .figures__row
+  &__row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  // .figures__column
+  &__column {
+    flex: 0 1 50%;
+  }
+
+  // .figures__item
+  &__item {
+  }
+}
+
+.item {
+  // .item__text
+  &__text {
+  }
+}
+
+//figures end
 
 
 .container {

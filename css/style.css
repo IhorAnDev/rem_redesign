@@ -989,6 +989,16 @@ body {
   }
 }
 
+.team {
+  display: none;
+}
+.figures__row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.figures__column {
+  flex: 0 1 50%;
+}
 .container {
   max-width: 1825px;
   margin: 0 auto;
