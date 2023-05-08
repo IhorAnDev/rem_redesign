@@ -1150,8 +1150,8 @@ body {
   }
 }
 
-
 //fourth end
+
 //team start
 .team {
   display: none;
@@ -1176,29 +1176,181 @@ body {
 
 //figures start
 .figures {
+  padding: 50px 0;
   // .figures__title
   &__title {
+    text-align: center;
+    font-size: 77px;
+    color: #14110F;
+    margin: 10px 0 30px 0;
   }
 
   // .figures__row
   &__row {
     display: flex;
     flex-wrap: wrap;
+    margin: 0 -22px;
   }
 
   // .figures__column
   &__column {
     flex: 0 1 50%;
+    padding: 17px 25px;
+
   }
 
   // .figures__item
   &__item {
+    border-radius: 63px;
+  }
+
+  @media (max-width: 1366px) {
+    &__title {
+      font-size: 65px;
+    }
+    &__row {
+      margin: 0 -14px;
+    }
+    &__column {
+      padding: 15px 15px;
+    }
+  }
+  @media (max-width: 1200px) {
+    padding: 25px 0 20px 0;
+    &__title {
+      font-size: 55px;
+      margin: 0 0 20px 0;
+    }
+  }
+  @media (max-width: 800px) {
+    &__row {
+      flex-direction: column;
+    }
+    &__column {
+      padding: 10px 15px;
+    }
+  }
+  @media (max-width: 375px) {
+    padding: 10px 0 20px 0;
+    &__title {
+      font-size: 28px;
+      line-height: 34px;
+      margin-bottom: 10px;
+    }
+    &__column {
+      &_first {
+      }
+
+      &_second {
+
+      }
+
+      &_third {
+        order: 4;
+      }
+
+      &_fourth {
+        order: 3;
+      }
+    }
+    &__item {
+      border-radius: 34px;
+    }
+
   }
 }
 
 .item {
+  // .item__first
+  &__first {
+
+    border: 6px solid #EEB519;
+    // .item__first_text
+    &_text {
+      padding: 61px 32px 70px 67px;
+    }
+  }
+
   // .item__text
   &__text {
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: #14110F;
+    margin: 0 auto;
+  }
+
+  // .item__second
+  &__second {
+    background: #EEB519;
+    // .item__second_text
+    &_text {
+      padding: 115px 70px 115px 96px;
+    }
+  }
+
+  // .item__third
+  &__third {
+    background: #EEB519;
+    // .item__third_text
+    &_text {
+      padding: 99px 52px;
+    }
+  }
+
+  // .item__fourth
+  &__fourth {
+    border: 6px solid #EEB519;
+    // .item__fourth_text
+    &_text {
+      padding: 93px 62px;
+    }
+  }
+
+  @media (max-width: 1366px) {
+    &__text {
+      font-size: 28px;
+      line-height: 39px;
+    }
+  }
+
+  @media (max-width: 1200px) {
+    &__first {
+      &_text {
+        padding: 45px 32px 55px 67px;
+      }
+    }
+    &__fourth {
+      &_text {
+        padding: 92px 32px 92px 67px;
+      }
+    }
+  }
+  @media (max-width: 375px) {
+    &__text {
+      font-size: 18px;
+      line-height: 22px;
+    }
+    &__first {
+      &_text {
+        padding: 9px 22px 17px 21px;
+      }
+    }
+    &__second {
+      &_text {
+        padding: 9px 22px 17px 21px;
+      }
+    }
+    &__third {
+      &_text {
+        padding: 9px 22px 17px 21px;
+      }
+    }
+    &__fourth {
+      &_text {
+        padding: 9px 22px 17px 21px;
+      }
+    }
   }
 }
 
