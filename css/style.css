@@ -1125,6 +1125,60 @@ body {
   }
 }
 
+.work__title {
+  text-align: center;
+  font-size: 77px;
+  line-height: 92px;
+  color: #14110F;
+  padding: 25px 0 50px 0;
+}
+.work__row {
+  display: flex;
+}
+.work__column {
+  flex: 0 1 33.333%;
+}
+.first_c__img img {
+  width: 100%;
+  border-radius: 81px;
+}
+.first_c__text {
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+  color: #14110F;
+  padding: 104px 5px 91px 0;
+}
+
+.second_c__text {
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+  color: #14110F;
+  padding: 134px 5px;
+}
+.second_c__img img {
+  width: 100%;
+  border-radius: 81px;
+}
+
+.third_c__img {
+  max-height: 456px;
+  max-width: 550px;
+  margin: 0 0 0 30px;
+}
+.third_c__img img {
+  width: 100%;
+  border-radius: 85px;
+}
+.third_c__text {
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+  color: #14110F;
+  padding: 126px 0 143px 42px;
+}
+
 .container {
   max-width: 1825px;
   margin: 0 auto;
