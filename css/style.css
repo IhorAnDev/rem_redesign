@@ -87,6 +87,11 @@ h6 {
 }
 
 /*--------------------*/
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 @font-face {
   font-family: "NAMU";
   src: url("https://ihorandev.github.io/rem_redesign/fonts/NAMU-1850.woff") format("woff");
@@ -188,7 +193,7 @@ body {
     top: 33px;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 416px) {
   .header__third:before {
     display: none;
   }
@@ -240,7 +245,7 @@ body {
     display: none;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 416px) {
   .social__link {
     padding: 0 5px 0 0;
   }
@@ -413,7 +418,7 @@ body {
     right: -139px;
   }
 }
-@media (max-width: 380px) {
+@media (max-width: 416px) {
   .intro__text-block {
     max-width: 280px;
   }
@@ -422,7 +427,7 @@ body {
     width: 153px;
     height: 153px;
     bottom: 159px;
-    right: -85px;
+    right: -95px;
   }
   .intro__title {
     font-size: 30px;
@@ -477,7 +482,7 @@ body {
     color: #14110F;
   }
 }
-@media (max-width: 380px) {
+@media (max-width: 416px) {
   .orange-button {
     display: block;
     margin: 0 0 37px 15px;
@@ -555,7 +560,7 @@ body {
     padding: 40px 0 0 0px;
   }
 }
-@media (max-width: 380px) {
+@media (max-width: 416px) {
   .second {
     margin: 0;
   }
@@ -678,7 +683,7 @@ body {
     padding: 0 0 0 0;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 416px) {
   .secondb__title {
     padding: 10px 0 10px 0;
   }
@@ -795,7 +800,7 @@ body {
     left: 37%;
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 416px) {
   .third__text p {
     font-size: 18px;
     line-height: 22px;
@@ -953,7 +958,7 @@ body {
     right: 105px;
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 416px) {
   .fourth {
     margin: 39px 0 0 0;
   }
@@ -1044,7 +1049,7 @@ body {
     padding: 10px 15px;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 416px) {
   .figures {
     padding: 10px 0 5px 0;
   }
@@ -1109,7 +1114,7 @@ body {
     padding: 92px 32px 92px 67px;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 416px) {
   .item__text {
     font-size: 18px;
     line-height: 22px;
@@ -1176,7 +1181,7 @@ body {
     order: 2;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 416px) {
   .work__title {
     font-size: 28px;
     line-height: 34px;
@@ -1231,7 +1236,7 @@ body {
     padding: 22px 0px 33px 0px;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 416px) {
   .first_c__img img {
     border-radius: 37px;
   }
@@ -1281,7 +1286,7 @@ body {
     padding: 22px 7px 45px 6px;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 416px) {
   .second_c__img img {
     border-radius: 40px;
   }
@@ -1342,7 +1347,7 @@ body {
     padding: 20px 0px 32px 0px;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 416px) {
   .third_c__img {
     padding-top: 17px;
   }
@@ -1440,7 +1445,7 @@ body {
     padding: 0 0 18px 0;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 416px) {
   .values__title {
     font-size: 28px;
     line-height: 34px;
@@ -1463,7 +1468,7 @@ body {
   display: flex;
   justify-content: center;
 }
-@media (max-width: 375px) {
+@media (max-width: 416px) {
   .footer {
     display: block;
   }

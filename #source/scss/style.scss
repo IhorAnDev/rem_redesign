@@ -1,6 +1,11 @@
 //Файл обнуляющих стилей.
 @import "default";
 
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 @font-face {
   font-family: "NAMU";
   src: url("https://ihorandev.github.io/rem_redesign/fonts/NAMU-1850.woff") format("woff");
@@ -9,6 +14,7 @@
   font-style: normal;
   font-display: auto;
 }
+
 
 body {
   background-color: #FBF0D1;
@@ -136,7 +142,7 @@ body {
       }
     }
   }
-  @media (max-width: 320px) {
+  @media (max-width: 416px) {
 
     &__third {
       &:before {
@@ -204,7 +210,7 @@ body {
     }
   }
 
-  @media (max-width: 320px) {
+  @media (max-width: 416px) {
     &__link {
       padding: 0 5px 0 0;
 
@@ -449,7 +455,7 @@ body {
     }
 
   }
-  @media (max-width: 380px) {
+  @media (max-width: 416px) {
     &__text-block {
       max-width: 280px;
 
@@ -458,7 +464,7 @@ body {
         width: 153px;
         height: 153px;
         bottom: 159px;
-        right: -85px;
+        right: -95px;
       }
     }
 
@@ -516,7 +522,7 @@ body {
       color: #14110F;
     }
   }
-  @media (max-width: 380px) {
+  @media (max-width: 416px) {
     display: block;
     margin: 0 0 37px 15px;
     &__text {
@@ -601,7 +607,7 @@ body {
   }
 
 
-  @media (max-width: 380px) {
+  @media (max-width: 416px) {
     margin: 0;
     &__bubble {
       font-size: 14px;
@@ -750,7 +756,7 @@ body {
 
     }
   }
-  @media (max-width: 375px) {
+  @media (max-width: 416px) {
     &__title {
       padding: 10px 0 10px 0;
 
@@ -912,7 +918,7 @@ body {
       }
     }
   }
-  @media (max-width: 400px) {
+  @media (max-width: 416px) {
     &__text {
       p {
         font-size: 18px;
@@ -1107,7 +1113,7 @@ body {
       }
     }
   }
-  @media (max-width: 400px) {
+  @media (max-width: 416px) {
     margin: 39px 0 0 0;
 
     &__column {
@@ -1231,7 +1237,7 @@ body {
       padding: 10px 15px;
     }
   }
-  @media (max-width: 375px) {
+  @media (max-width: 416px) {
     padding: 10px 0 5px 0;
     &__title {
       font-size: 28px;
@@ -1239,12 +1245,6 @@ body {
       margin-bottom: 10px;
     }
     &__column {
-      &_first {
-      }
-
-      &_second {
-
-      }
 
       &_third {
         order: 4;
@@ -1327,7 +1327,7 @@ body {
       }
     }
   }
-  @media (max-width: 375px) {
+  @media (max-width: 416px) {
     &__text {
       font-size: 18px;
       line-height: 22px;
@@ -1377,16 +1377,6 @@ body {
   &__column {
     flex: 0 1 33.333%;
     // .work__column__first
-    &__first {
-    }
-
-    // .work__column__second
-    &__second {
-    }
-
-    // .work__column__third
-    &__third {
-    }
   }
 
   @media (max-width: 1600px) {
@@ -1432,7 +1422,7 @@ body {
       }
     }
   }
-  @media (max-width: 375px) {
+  @media (max-width: 416px) {
     &__title {
       font-size: 28px;
       line-height: 34px;
@@ -1513,7 +1503,7 @@ body {
     }
   }
 
-  @media (max-width: 375px) {
+  @media (max-width: 416px) {
     &__img {
 
       img {
@@ -1587,7 +1577,7 @@ body {
       padding: 22px 7px 45px 6px;
     }
   }
-  @media (max-width: 375px) {
+  @media (max-width: 416px) {
     &__img {
 
       img {
@@ -1669,7 +1659,7 @@ body {
       padding: 20px 0px 32px 0px;
     }
   }
-  @media (max-width: 375px) {
+  @media (max-width: 416px) {
     &__img {
       padding-top: 17px;
 
@@ -1792,7 +1782,7 @@ body {
       }
     }
   }
-  @media (max-width: 375px) {
+  @media (max-width: 416px) {
 
     &__title {
       font-size: 28px;
@@ -1822,7 +1812,7 @@ body {
     justify-content: center;
   }
 
-  @media (max-width: 375px) {
+  @media (max-width: 416px) {
     display: block;
     &__row {
       padding: 17px 0;
