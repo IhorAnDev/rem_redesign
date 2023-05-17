@@ -3,8 +3,8 @@
 
 @font-face {
   font-family: "NAMU";
-  src: url("/fonts/NAMU-1850.woff") format("woff");
-  src: url("/fonts/NAMU-1850.woff2") format("woff2");
+  src: url("https://ihorandev.github.io/rem_redesign/fonts/NAMU-1850.woff") format("woff");
+  src: url("https://ihorandev.github.io/rem_redesign/fonts/NAMU-1850.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: auto;
@@ -45,7 +45,7 @@ body {
 
     &:before {
       content: '';
-      background: url('/img/ball.png') 0 0 no-repeat;
+      background: url('https://ihorandev.github.io/rem_redesign/img/ball.png') 0 0 no-repeat;
       position: absolute;
       z-index: 5;
       width: 268px;
@@ -126,7 +126,7 @@ body {
 
       &:before {
         content: '';
-        background: url('/img/cloud.png') 0 0/80px 80px no-repeat;
+        background: url('https://ihorandev.github.io/rem_redesign/img/cloud.png') 0 0/80px 80px no-repeat;
         position: absolute;
         z-index: 5;
         width: 268px;
@@ -260,7 +260,7 @@ body {
 
     &:after {
       content: '';
-      background: url('/img/knight_intro.png') 0 0 no-repeat;
+      background: url('https://ihorandev.github.io/rem_redesign/img/knight_intro.png') 0 0 no-repeat;
       position: absolute;
       z-index: 1;
       width: 268px;
@@ -372,7 +372,7 @@ body {
     &__text-block {
 
       &:after {
-        background: url('/img/knight_intro.png') 0 0/200px 200px no-repeat;
+        background: url('https://ihorandev.github.io/rem_redesign/img/knight_intro.png') 0 0/200px 200px no-repeat;
         width: 211px;
         height: 263px;
         bottom: -108px;
@@ -404,7 +404,7 @@ body {
     &__text-block {
 
       &:after {
-        background: url('/img/knight_intro.png') 0 0/60% auto no-repeat;
+        background: url('https://ihorandev.github.io/rem_redesign/img/knight_intro.png') 0 0/60% auto no-repeat;
         width: 211px;
         height: 263px;
         bottom: -148px;
@@ -438,7 +438,7 @@ body {
 
       &:after {
         content: '';
-        background: url('/img/knight_intro.png') 0 0/45% auto no-repeat;
+        background: url('https://ihorandev.github.io/rem_redesign/img/knight_intro.png') 0 0/45% auto no-repeat;
         position: absolute;
         z-index: 2;
         width: 195px;
@@ -454,7 +454,7 @@ body {
       max-width: 280px;
 
       &:after {
-        background: url('/img/knight_intro.png') 0 0/100% auto no-repeat;
+        background: url('https://ihorandev.github.io/rem_redesign/img/knight_intro.png') 0 0/100% auto no-repeat;
         width: 153px;
         height: 153px;
         bottom: 159px;
@@ -633,7 +633,7 @@ body {
     // .secondb__column_second
     &_second {
       &:after {
-        content: url("/img/Rabbit.png");
+        content: url("https://ihorandev.github.io/rem_redesign/img/Rabbit.png");
         position: absolute;
         bottom: -7px;
         left: 48px;
@@ -660,7 +660,7 @@ body {
 
     &:before {
       content: "";
-      background: url("/img/Rocket.png") right 0 no-repeat;
+      background: url("https://ihorandev.github.io/rem_redesign/img/Rocket.png") right 0 no-repeat;
       position: absolute;
       top: -27px;
       right: 60px;
@@ -696,7 +696,7 @@ body {
       padding: 125px 76px 55px 0;
 
       &:before {
-        background: url("/img/Rocket.png") right 0/ 100% 100% no-repeat;
+        background: url("https://ihorandev.github.io/rem_redesign/img/Rocket.png") right 0/ 100% 100% no-repeat;
         width: 200px;
         height: 200px;
       }
@@ -713,7 +713,7 @@ body {
       }
 
       &:before {
-        background: url("/img/Rocket.png") right 0/ 80% 80% no-repeat;
+        background: url("https://ihorandev.github.io/rem_redesign/img/Rocket.png") right 0/ 80% 80% no-repeat;
       }
     }
 
@@ -739,7 +739,7 @@ body {
       }
 
       &:before {
-        background: url("/img/Rocket.png") right 0/ 70% 70% no-repeat;
+        background: url("https://ihorandev.github.io/rem_redesign/img/Rocket.png") right 0/ 70% 70% no-repeat;
         top: -170px;
         right: 45px;
       }
@@ -759,7 +759,7 @@ body {
       }
 
       &:before {
-        background: url("/img/Rocket.png") right 0/ 50% 50% no-repeat;
+        background: url("https://ihorandev.github.io/rem_redesign/img/Rocket.png") right 0/ 50% 50% no-repeat;
         top: -100px;
         right: 0;
       }
@@ -814,7 +814,7 @@ body {
 
     &:after {
       content: "";
-      background: url("/img/duck.png") 0 0 /100% 100% no-repeat;
+      background: url("https://ihorandev.github.io/rem_redesign/img/duck.png") 0 0 /100% 100% no-repeat;
       position: absolute;
       width: 280px;
       height: 280px;
@@ -841,7 +841,7 @@ body {
 
       &:after {
         content: '';
-        background: url("/img/duck.png") 0 0 /70% 70% no-repeat;
+        background: url("https://ihorandev.github.io/rem_redesign/img/duck.png") 0 0 /70% 70% no-repeat;
         height: 250px;
       }
     }
@@ -862,7 +862,7 @@ body {
 
       &:after {
         content: '';
-        background: url("/img/duck.png") 0 0 /50% 100% no-repeat;
+        background: url("https://ihorandev.github.io/rem_redesign/img/duck.png") 0 0 /50% 100% no-repeat;
         height: 124px;
       }
     }
@@ -884,7 +884,7 @@ body {
 
       &:after {
         content: '';
-        background: url("/img/duck.png") 0 0 /50% 100% no-repeat;
+        background: url("https://ihorandev.github.io/rem_redesign/img/duck.png") 0 0 /50% 100% no-repeat;
         height: 124px;
       }
     }
@@ -986,7 +986,7 @@ body {
 
     &:after {
       content: '';
-      background: url("/img/castle_1.png") 0 0 no-repeat;
+      background: url("https://ihorandev.github.io/rem_redesign/img/castle_1.png") 0 0 no-repeat;
       position: absolute;
       z-index: 1;
       width: 382px;
@@ -1021,7 +1021,7 @@ body {
     }
     &__img {
       &:after {
-        background: url("/img/castle_1.png") 0 0/80% 80% no-repeat;
+        background: url("https://ihorandev.github.io/rem_redesign/img/castle_1.png") 0 0/80% 80% no-repeat;
         width: 382px;
         height: 379px;
         bottom: -160px;
@@ -1050,7 +1050,7 @@ body {
     }
     &__img {
       &:after {
-        background: url("/img/castle_1.png") 0 0/80% 80% no-repeat;
+        background: url("https://ihorandev.github.io/rem_redesign/img/castle_1.png") 0 0/80% 80% no-repeat;
         bottom: -160px;
         right: -50px;
       }
@@ -1069,7 +1069,7 @@ body {
     }
     &__img {
       &:after {
-        background: url("/img/castle_1.png") 0 0/70% 70% no-repeat;
+        background: url("https://ihorandev.github.io/rem_redesign/img/castle_1.png") 0 0/70% 70% no-repeat;
         bottom: -261px;
         right: -103px;
       }
@@ -1101,7 +1101,7 @@ body {
       }
 
       &:after {
-        background: url("/img/castle_1.png") 0 0/80% 80% no-repeat;
+        background: url("https://ihorandev.github.io/rem_redesign/img/castle_1.png") 0 0/80% 80% no-repeat;
         bottom: -267px;
         right: 105px;
       }
@@ -1132,7 +1132,7 @@ body {
       padding: 20px 0 0 0;
 
       &:after {
-        background: url("/img/castle_1.png") 0 0/55% 55% no-repeat;
+        background: url("https://ihorandev.github.io/rem_redesign/img/castle_1.png") 0 0/55% 55% no-repeat;
         bottom: -353px;
         right: -107px;
       }
