@@ -1357,6 +1357,135 @@ body {
   }
 }
 
+.values__title {
+  text-align: center;
+  font-size: 77px;
+  line-height: 92px;
+  color: #14110F;
+  padding: 150px 0 40px 0;
+}
+.values__row {
+  display: flex;
+}
+.values__column_second {
+  align-self: center;
+}
+.values__column_second img {
+  width: 100%;
+}
+.values__text {
+  text-align: left;
+  max-width: 1026px;
+  font-size: 36px;
+  line-height: 43px;
+  color: #14110F;
+  padding: 0 55px;
+}
+.values__text p {
+  padding: 0 0 60px 0;
+}
+@media (max-width: 1600px) {
+  .values__title {
+    font-size: 70px;
+    line-height: 85px;
+    padding: 90px 0 35px 0;
+  }
+  .values__text {
+    font-size: 30px;
+    line-height: 41px;
+  }
+}
+@media (max-width: 1360px) {
+  .values__title {
+    font-size: 67px;
+    line-height: 50px;
+    padding: 90px 0 25px 0;
+  }
+  .values__text {
+    font-size: 26px;
+    line-height: 39px;
+  }
+  .values__text p {
+    padding: 0 0 30px 0;
+  }
+}
+@media (max-width: 1200px) {
+  .values__title {
+    font-size: 60px;
+    line-height: 40px;
+    padding: 75px 0 25px 0;
+  }
+  .values__text {
+    font-size: 23px;
+    line-height: 36px;
+    padding: 0 30px;
+  }
+  .values__text p {
+    padding: 0 0 25px 0;
+  }
+}
+@media (max-width: 800px) {
+  .values__row {
+    flex-direction: column;
+  }
+  .values__title {
+    font-size: 55px;
+    line-height: 40px;
+    padding: 30px 0 25px 0;
+  }
+  .values__text {
+    padding: 0 20px;
+  }
+  .values__text p {
+    padding: 0 0 18px 0;
+  }
+}
+@media (max-width: 375px) {
+  .values__title {
+    font-size: 28px;
+    line-height: 34px;
+    padding: 17px 0 17px 0;
+  }
+  .values__text {
+    padding: 0;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .values__text p {
+    padding: 0 0 18px 0;
+  }
+}
+
+.footer {
+  display: none;
+}
+.footer__row {
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 375px) {
+  .footer {
+    display: block;
+  }
+  .footer__row {
+    padding: 17px 0;
+  }
+  .footer__instagram {
+    max-width: 50px;
+    margin-right: 15px;
+  }
+  .footer__instagram img {
+    width: 100%;
+  }
+  .footer__telegram {
+    max-width: 59px;
+    margin-left: 15px;
+  }
+  .footer__telegram img {
+    width: 100%;
+  }
+}
+
 .container {
   max-width: 1825px;
   margin: 0 auto;
