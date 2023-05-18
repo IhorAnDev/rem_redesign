@@ -1507,7 +1507,7 @@ body {
     &__img {
 
       img {
-        border-radius: 37px;
+        border-radius: 56px;
       }
     }
     &__text {
@@ -1579,6 +1579,7 @@ body {
   }
   @media (max-width: 416px) {
     &__img {
+      display: none;
 
       img {
         border-radius: 40px;

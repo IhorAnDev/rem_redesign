@@ -1238,7 +1238,7 @@ body {
 }
 @media (max-width: 416px) {
   .first_c__img img {
-    border-radius: 37px;
+    border-radius: 56px;
   }
   .first_c__text {
     font-size: 18px;
@@ -1287,6 +1287,9 @@ body {
   }
 }
 @media (max-width: 416px) {
+  .second_c__img {
+    display: none;
+  }
   .second_c__img img {
     border-radius: 40px;
   }
