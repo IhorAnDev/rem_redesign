@@ -1588,8 +1588,13 @@ body {
     &__text {
       font-size: 18px;
       line-height: 22px;
-      padding: 15px 0px 27px 0px;
+      padding: 15px 0px 15px 0px;
       text-align: left;
+      p{
+        &:nth-child(1) {
+          padding-bottom: 15px;
+        }
+      }
     }
   }
 }

@@ -1296,8 +1296,11 @@ body {
   .second_c__text {
     font-size: 18px;
     line-height: 22px;
-    padding: 15px 0px 27px 0px;
+    padding: 15px 0px 15px 0px;
     text-align: left;
+  }
+  .second_c__text p:nth-child(1) {
+    padding-bottom: 15px;
   }
 }
 
