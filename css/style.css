@@ -87,10 +87,15 @@ h6 {
 }
 
 /*--------------------*/
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 @font-face {
   font-family: "NAMU";
-  src: url("/fonts/NAMU-1850.woff") format("woff");
-  src: url("/fonts/NAMU-1850.woff2") format("woff2");
+  src: url("https://ihorandev.github.io/rem_redesign/fonts/NAMU-1850.woff") format("woff");
+  src: url("https://ihorandev.github.io/rem_redesign/fonts/NAMU-1850.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: auto;
@@ -121,7 +126,7 @@ body {
 }
 .header__second:before {
   content: "";
-  background: url("/img/ball.png") 0 0 no-repeat;
+  background: url("https://ihorandev.github.io/rem_redesign/img/ball.png") 0 0 no-repeat;
   position: absolute;
   z-index: 5;
   width: 268px;
@@ -179,7 +184,7 @@ body {
   }
   .header__third:before {
     content: "";
-    background: url("/img/cloud.png") 0 0/80px 80px no-repeat;
+    background: url("https://ihorandev.github.io/rem_redesign/img/cloud.png") 0 0/80px 80px no-repeat;
     position: absolute;
     z-index: 5;
     width: 268px;
@@ -188,7 +193,7 @@ body {
     top: 33px;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 416px) {
   .header__third:before {
     display: none;
   }
@@ -240,7 +245,7 @@ body {
     display: none;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 416px) {
   .social__link {
     padding: 0 5px 0 0;
   }
@@ -279,7 +284,7 @@ body {
 }
 .intro__text-block:after {
   content: "";
-  background: url("/img/knight_intro.png") 0 0 no-repeat;
+  background: url("https://ihorandev.github.io/rem_redesign/img/knight_intro.png") 0 0 no-repeat;
   position: absolute;
   z-index: 1;
   width: 268px;
@@ -354,7 +359,7 @@ body {
     padding: 45px 0 0 0;
   }
   .intro__text-block:after {
-    background: url("/img/knight_intro.png") 0 0/200px 200px no-repeat;
+    background: url("https://ihorandev.github.io/rem_redesign/img/knight_intro.png") 0 0/200px 200px no-repeat;
     width: 211px;
     height: 263px;
     bottom: -108px;
@@ -377,7 +382,7 @@ body {
     flex: 1 1 40%;
   }
   .intro__text-block:after {
-    background: url("/img/knight_intro.png") 0 0/60% auto no-repeat;
+    background: url("https://ihorandev.github.io/rem_redesign/img/knight_intro.png") 0 0/60% auto no-repeat;
     width: 211px;
     height: 263px;
     bottom: -148px;
@@ -404,7 +409,7 @@ body {
   }
   .intro__text-block:after {
     content: "";
-    background: url("/img/knight_intro.png") 0 0/45% auto no-repeat;
+    background: url("https://ihorandev.github.io/rem_redesign/img/knight_intro.png") 0 0/45% auto no-repeat;
     position: absolute;
     z-index: 2;
     width: 195px;
@@ -413,16 +418,16 @@ body {
     right: -139px;
   }
 }
-@media (max-width: 380px) {
+@media (max-width: 416px) {
   .intro__text-block {
     max-width: 280px;
   }
   .intro__text-block:after {
-    background: url("/img/knight_intro.png") 0 0/100% auto no-repeat;
+    background: url("https://ihorandev.github.io/rem_redesign/img/knight_intro.png") 0 0/100% auto no-repeat;
     width: 153px;
     height: 153px;
     bottom: 159px;
-    right: -85px;
+    right: -95px;
   }
   .intro__title {
     font-size: 30px;
@@ -477,7 +482,7 @@ body {
     color: #14110F;
   }
 }
-@media (max-width: 380px) {
+@media (max-width: 416px) {
   .orange-button {
     display: block;
     margin: 0 0 37px 15px;
@@ -555,7 +560,7 @@ body {
     padding: 40px 0 0 0px;
   }
 }
-@media (max-width: 380px) {
+@media (max-width: 416px) {
   .second {
     margin: 0;
   }
@@ -584,7 +589,7 @@ body {
   flex: 1 0 45%;
 }
 .secondb__column_second:after {
-  content: url("/img/Rabbit.png");
+  content: url("https://ihorandev.github.io/rem_redesign/img/Rabbit.png");
   position: absolute;
   bottom: -7px;
   left: 48px;
@@ -600,7 +605,7 @@ body {
 }
 .secondb__title:before {
   content: "";
-  background: url("/img/Rocket.png") right 0 no-repeat;
+  background: url("https://ihorandev.github.io/rem_redesign/img/Rocket.png") right 0 no-repeat;
   position: absolute;
   top: -27px;
   right: 60px;
@@ -630,7 +635,7 @@ body {
     padding: 125px 76px 55px 0;
   }
   .secondb__title:before {
-    background: url("/img/Rocket.png") right 0/100% 100% no-repeat;
+    background: url("https://ihorandev.github.io/rem_redesign/img/Rocket.png") right 0/100% 100% no-repeat;
     width: 200px;
     height: 200px;
   }
@@ -646,7 +651,7 @@ body {
     font-size: 55px;
   }
   .secondb__title:before {
-    background: url("/img/Rocket.png") right 0/80% 80% no-repeat;
+    background: url("https://ihorandev.github.io/rem_redesign/img/Rocket.png") right 0/80% 80% no-repeat;
   }
   .secondb__text {
     font-size: 30px;
@@ -669,7 +674,7 @@ body {
     font-size: 50px;
   }
   .secondb__title:before {
-    background: url("/img/Rocket.png") right 0/70% 70% no-repeat;
+    background: url("https://ihorandev.github.io/rem_redesign/img/Rocket.png") right 0/70% 70% no-repeat;
     top: -170px;
     right: 45px;
   }
@@ -678,7 +683,7 @@ body {
     padding: 0 0 0 0;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 416px) {
   .secondb__title {
     padding: 10px 0 10px 0;
   }
@@ -686,7 +691,7 @@ body {
     font-size: 35px;
   }
   .secondb__title:before {
-    background: url("/img/Rocket.png") right 0/50% 50% no-repeat;
+    background: url("https://ihorandev.github.io/rem_redesign/img/Rocket.png") right 0/50% 50% no-repeat;
     top: -100px;
     right: 0;
   }
@@ -727,7 +732,7 @@ body {
 }
 .third__text:after {
   content: "";
-  background: url("/img/duck.png") 0 0/100% 100% no-repeat;
+  background: url("https://ihorandev.github.io/rem_redesign/img/duck.png") 0 0/100% 100% no-repeat;
   position: absolute;
   width: 280px;
   height: 280px;
@@ -743,7 +748,7 @@ body {
   }
   .third__text:after {
     content: "";
-    background: url("/img/duck.png") 0 0/70% 70% no-repeat;
+    background: url("https://ihorandev.github.io/rem_redesign/img/duck.png") 0 0/70% 70% no-repeat;
     height: 250px;
   }
 }
@@ -758,7 +763,7 @@ body {
   }
   .third__text:after {
     content: "";
-    background: url("/img/duck.png") 0 0/50% 100% no-repeat;
+    background: url("https://ihorandev.github.io/rem_redesign/img/duck.png") 0 0/50% 100% no-repeat;
     height: 124px;
   }
 }
@@ -773,7 +778,7 @@ body {
   }
   .third__text:after {
     content: "";
-    background: url("/img/duck.png") 0 0/50% 100% no-repeat;
+    background: url("https://ihorandev.github.io/rem_redesign/img/duck.png") 0 0/50% 100% no-repeat;
     height: 124px;
   }
 }
@@ -795,7 +800,7 @@ body {
     left: 37%;
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 416px) {
   .third__text p {
     font-size: 18px;
     line-height: 22px;
@@ -848,7 +853,7 @@ body {
 }
 .fourth__img:after {
   content: "";
-  background: url("/img/castle_1.png") 0 0 no-repeat;
+  background: url("https://ihorandev.github.io/rem_redesign/img/castle_1.png") 0 0 no-repeat;
   position: absolute;
   z-index: 1;
   width: 382px;
@@ -877,7 +882,7 @@ body {
     padding: 0 0 30px 0;
   }
   .fourth__img:after {
-    background: url("/img/castle_1.png") 0 0/80% 80% no-repeat;
+    background: url("https://ihorandev.github.io/rem_redesign/img/castle_1.png") 0 0/80% 80% no-repeat;
     width: 382px;
     height: 379px;
     bottom: -160px;
@@ -903,7 +908,7 @@ body {
     padding: 0 0 20px 0;
   }
   .fourth__img:after {
-    background: url("/img/castle_1.png") 0 0/80% 80% no-repeat;
+    background: url("https://ihorandev.github.io/rem_redesign/img/castle_1.png") 0 0/80% 80% no-repeat;
     bottom: -160px;
     right: -50px;
   }
@@ -918,7 +923,7 @@ body {
     border-radius: 50px;
   }
   .fourth__img:after {
-    background: url("/img/castle_1.png") 0 0/70% 70% no-repeat;
+    background: url("https://ihorandev.github.io/rem_redesign/img/castle_1.png") 0 0/70% 70% no-repeat;
     bottom: -261px;
     right: -103px;
   }
@@ -948,12 +953,12 @@ body {
     width: 100%;
   }
   .fourth__img:after {
-    background: url("/img/castle_1.png") 0 0/80% 80% no-repeat;
+    background: url("https://ihorandev.github.io/rem_redesign/img/castle_1.png") 0 0/80% 80% no-repeat;
     bottom: -267px;
     right: 105px;
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 416px) {
   .fourth {
     margin: 39px 0 0 0;
   }
@@ -975,7 +980,7 @@ body {
     padding: 20px 0 0 0;
   }
   .fourth__img:after {
-    background: url("/img/castle_1.png") 0 0/55% 55% no-repeat;
+    background: url("https://ihorandev.github.io/rem_redesign/img/castle_1.png") 0 0/55% 55% no-repeat;
     bottom: -353px;
     right: -107px;
   }
@@ -1044,7 +1049,7 @@ body {
     padding: 10px 15px;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 416px) {
   .figures {
     padding: 10px 0 5px 0;
   }
@@ -1109,7 +1114,7 @@ body {
     padding: 92px 32px 92px 67px;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 416px) {
   .item__text {
     font-size: 18px;
     line-height: 22px;
@@ -1176,7 +1181,7 @@ body {
     order: 2;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 416px) {
   .work__title {
     font-size: 28px;
     line-height: 34px;
@@ -1231,9 +1236,9 @@ body {
     padding: 22px 0px 33px 0px;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 416px) {
   .first_c__img img {
-    border-radius: 37px;
+    border-radius: 56px;
   }
   .first_c__text {
     font-size: 18px;
@@ -1281,15 +1286,21 @@ body {
     padding: 22px 7px 45px 6px;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 416px) {
+  .second_c__img {
+    display: none;
+  }
   .second_c__img img {
     border-radius: 40px;
   }
   .second_c__text {
     font-size: 18px;
     line-height: 22px;
-    padding: 15px 0px 27px 0px;
+    padding: 15px 0px 15px 0px;
     text-align: left;
+  }
+  .second_c__text p:nth-child(1) {
+    padding-bottom: 15px;
   }
 }
 
@@ -1342,7 +1353,7 @@ body {
     padding: 20px 0px 32px 0px;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 416px) {
   .third_c__img {
     padding-top: 17px;
   }
@@ -1440,7 +1451,7 @@ body {
     padding: 0 0 18px 0;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 416px) {
   .values__title {
     font-size: 28px;
     line-height: 34px;
@@ -1463,7 +1474,7 @@ body {
   display: flex;
   justify-content: center;
 }
-@media (max-width: 375px) {
+@media (max-width: 416px) {
   .footer {
     display: block;
   }
