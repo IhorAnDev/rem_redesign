@@ -218,6 +218,14 @@ body {
 .social__link:nth-child(2) {
   padding: 0 16px 0 0;
 }
+.social__link_viber {
+  display: block;
+  width: 70px;
+  margin: 2px 0 0 0;
+}
+.social__link_viber img {
+  width: 100%;
+}
 .social__btn {
   padding: 10px 0 0 0;
   height: 58px;
@@ -1488,13 +1496,17 @@ body {
   .footer__instagram img {
     width: 100%;
   }
-  .footer__telegram {
+  .footer_telegram {
     max-width: 59px;
-    margin-left: 15px;
+    margin: 0 15px;
   }
-  .footer__telegram img {
+  .footer_telegram img {
     width: 100%;
   }
+}
+
+.social__link_telegram {
+  margin: 0 15px;
 }
 
 .container {

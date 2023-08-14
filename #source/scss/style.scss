@@ -175,6 +175,15 @@ body {
     &:nth-child(2) {
       padding: 0 16px 0 0;
     }
+
+    &_viber {
+      display: block;
+      width: 70px;
+      margin: 2px 0 0 0;
+      img {
+        width: 100%;
+      }
+    }
   }
 
   // .social__btn
@@ -1590,7 +1599,8 @@ body {
       line-height: 22px;
       padding: 15px 0px 15px 0px;
       text-align: left;
-      p{
+
+      p {
         &:nth-child(1) {
           padding-bottom: 15px;
         }
@@ -1833,15 +1843,19 @@ body {
     }
 
     // .footer__telegram
-    &__telegram {
+    &_telegram {
       max-width: 59px;
-      margin-left: 15px;
+      margin: 0 15px;
 
       img {
         width: 100%;
       }
     }
   }
+}
+
+.social__link_telegram{
+  margin: 0 15px;
 }
 
 .container {
